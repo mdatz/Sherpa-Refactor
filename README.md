@@ -1,3 +1,7 @@
+# Sherpa Architecture
+
+![sherpa-guiding-architecture drawio](https://user-images.githubusercontent.com/26133178/208521685-adf856ee-8030-42cd-8cf0-f2c08016bb31.png)
+
 # Mantine Next Template
 
 Get started with Mantine + Next with just a few button clicks.
