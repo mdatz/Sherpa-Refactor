@@ -1,0 +1,252 @@
+.dashboard {
+    z-index: 1;
+}
+
+.mapContainer {
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.map{
+    width: 100vw;
+    height: 100%;
+}
+
+.offerContainer {
+    border: 4px solid rgba(205, 214, 218, 0.61);
+    border-radius: 15px;
+    z-index: 4;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 200px;
+    z-index: 2;
+}
+
+.logo:hover {
+    cursor: pointer;
+    background-color:rgba(0,0,0,0.1);
+}
+
+.navigationTipContainer {
+    position: absolute;
+    width: max-content;
+    max-width: 275px;
+    height: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
+    bottom: 15px;
+    right: 10px;
+    z-index: 1;
+}
+
+.navigationTipRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.navigationTipFooter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.closeButton {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    border-radius: 50%;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.searchContainer {
+    top: 50px;
+    right: 50px;
+    z-index: 0;
+}
+
+.searchBar {
+    width: 600px;
+}
+
+.selectActivity {
+    width: 150px;
+}
+
+.numberInput {
+    width: 135px;
+}
+
+.dateRangePicker {
+    width: 250px;
+}
+
+.verticalDivider {
+    border: 1px solid #ccc;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.popupButton {
+    width: 70px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 15px;
+    z-index: 5;
+    border-bottom:rgba(255, 255, 255, 0.0) 0px solid;
+}
+
+.headerContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerSearch {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 50px;
+    border: '5px solid #00bcd4';
+}
+
+.navbarSidebar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0,0,0,0.0);
+    z-index: 2;
+}
+
+.navbarIcon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbarRow {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+.navbarRow:hover {
+    cursor: pointer;
+    filter: brightness(90%);
+    border-radius: '50px';
+}
+
+.navbarFlexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbarFooter {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 275px;
+    padding: 10px;
+}
+
+.adventurePanel {
+    position: absolute;
+    top: 10vh;
+    right: 20vw;
+    width: 60vw;
+    height: 80vh;
+    z-index: 1;
+}
+
+.adventureRequestPanel {
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 30vw;
+    height: auto;
+    z-index: 1;
+}
+
+.adventurePostingPanel {
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 30vw;
+    height: 80vh;
+    z-index: 1;
+}
+
+.adventureOfferPanel {
+    position: absolute;
+    top: 10vh;
+    right: 5vw;
+    width: 30vw;
+    height: 80vh;
+    z-index: 1;
+}
+
+.settingsPanel {
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 20vw;
+    z-index: 1;
+}
+
+.detailsPanel {
+    position: absolute;
+    top: 10vh;
+    left: 2vw;
+    width: 20vw;
+    z-index: 1;
+}
+
+.startMarker {
+    background-image: url('../../public/images/start_icon.png');
+    background-size: contain;
+    width: 30px;
+    height: 40px;
+}
+
+.finishMarker {
+    background-image: url('../../public/images/finish_icon.png');
+    background-size: contain;
+    width: 30px;
+    height: 40px;
+}
+
+.routeMarker {
+    background-image: url('../../public/images/route_icon.png');
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}

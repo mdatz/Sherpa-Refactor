@@ -1,0 +1,30 @@
+@font-face {
+  font-family: 'Jost';
+  src: local('Jost'), url(./fonts/Jost-VariableFont_wght.ttf) format('truetype');
+}
+
+html,
+body {
+  font-family: 'Jost', sans-serif;
+  line-height: 1.3;
+  font-size: 18px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  font-family: 'Jost', sans-serif;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+}
+
+a {
+  color: #0077ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}

@@ -1,11 +1,12 @@
 import { useState } from 'react';
 import NextApp, { AppProps, AppContext } from 'next/app';
 import { getCookie, setCookie } from 'cookies-next';
+import { SessionProvider } from 'next-auth/react'
 import Head from 'next/head';
 import { MantineProvider, ColorScheme, ColorSchemeProvider } from '@mantine/core';
 import { NotificationsProvider } from '@mantine/notifications';
 
-export default function App(props: AppProps & { colorScheme: ColorScheme }) {
+export default function App(props: AppProps & { colorScheme: ColorScheme, pageProps: any }) {
   const { Component, pageProps } = props;
   const [colorScheme, setColorScheme] = useState<ColorScheme>(props.colorScheme);
 
@@ -20,13 +21,15 @@ export default function App(props: AppProps & { colorScheme: ColorScheme }) {
       <Head>
         <title>Mantine next example</title>
         <meta name="viewport" content="minimum-scale=1, initial-scale=1, width=device-width" />
-        <link rel="shortcut icon" href="/favicon.svg" />
+        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
 
       <ColorSchemeProvider colorScheme={colorScheme} toggleColorScheme={toggleColorScheme}>
         <MantineProvider theme={{ colorScheme }} withGlobalStyles withNormalizeCSS>
-          <NotificationsProvider>
-            <Component {...pageProps} />
+          <NotificationsProvider position="bottom-center" zIndex={2077}>
+            <SessionProvider session={pageProps.session}>
+              <Component {...pageProps} />
+            </SessionProvider>
           </NotificationsProvider>
         </MantineProvider>
       </ColorSchemeProvider>

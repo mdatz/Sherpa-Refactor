@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg class="bi bi-mouse" width="16" height="16" fill="currentColor" version="1.1" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+ <path d="M8 3a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 3zm4 8a4 4 0 0 1-8 0V5a4 4 0 1 1 8 0v6zM8 0a5 5 0 0 0-5 5v6a5 5 0 0 0 10 0V5a5 5 0 0 0-5-5z"/>
+ <g fill="none">
+  <g stroke="#000">
+   <path d="m3.5276 7.783h8.9029" stroke-width=".62362"/>
+   <path d="m8.0039 5.6523v2.1641" stroke-width=".24567"/>
+   <path d="m8 0.83594v2.1641" stroke-width=".24567"/>
+  </g>
+  <path d="m7.9935 3.5271 0.010378 1.9222" stroke="#fff" stroke-linecap="round" stroke-width=".62362"/>
+ </g>
+</svg>

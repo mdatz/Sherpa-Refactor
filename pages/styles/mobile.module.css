@@ -1,0 +1,24 @@
+.headerContainer {
+    background-color: #ffffff;
+    border-bottom: 3px solid #ececec;
+    padding: 15px;
+    position: relative;
+    z-index: 1;
+}
+
+.bodyContainer {
+    flex-direction: column;
+    margin-top: 75px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.bodyText {
+    font-size: 45px;
+    line-height: 1.3;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    text-align: center;
+    margin-top: 20px;
+}
